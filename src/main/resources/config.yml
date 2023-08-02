@@ -1,0 +1,17 @@
+commands:
+  1:
+    name: "test"
+    permissions: "test.permission"
+    error_message: "Permission Error!"
+    message: "hello world!"
+    commands:
+      - "give %player% diamond 1"
+    usedConsole: true
+  2:
+    name: "test2"
+    permissions: "test.permission2"
+    error_message: "Permission Error!"
+    message: "hello world!"
+    commands:
+      - "give %player% diamond 2"
+    usedConsole: true

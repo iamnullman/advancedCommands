@@ -1,0 +1,5 @@
+name: advancedcommands
+version: '${project.version}'
+main: iumproject.advancedcommands.Advancedcommands
+api-version: '1.19'
+author: iamnullman
