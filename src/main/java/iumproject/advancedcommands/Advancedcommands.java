@@ -51,7 +51,7 @@ public final class Advancedcommands extends JavaPlugin implements Listener {
         if (section != null) {
             String permissions = section.getString("permissions", "iumadvancedCommands");
             String sendMessage = section.getString("message");
-            String permError = section.getString("error_message", "Bu komutu kullanmak için yetkiniz bulunmuyor.");
+            String permError = section.getString("error_message", "You are not authorized to use this command!");
             List<String> commands = section.getStringList("commands");
             boolean useConsole = section.getBoolean("usedConsole", false);
             if (!player.hasPermission(permissions)) player.sendMessage(permError);
